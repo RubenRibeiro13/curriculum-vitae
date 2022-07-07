@@ -1,0 +1,167 @@
+body {
+  background: #e6e6e6;
+  font-family: "Arimo", sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #1f3864;
+  margin-top: 0;
+}
+
+h2 {
+  color: #2f5597;
+}
+
+p {
+  margin: 0;
+}
+
+span {
+  font-style: italic;
+  font-weight: 500;
+}
+
+hr {
+  width: 20%;
+  border: 0;
+  border-top: thick dotted #e6e6e6;
+  margin: 20px auto;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+
+  display: flex;
+}
+
+.left-container {
+  background: #8faadc;
+  color: white;
+  border-radius: 30px 0 0 30px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 35%;
+  padding: 30px;
+}
+
+.left-container h3 {
+  margin: 30px 0 10px;
+}
+
+.left-container ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.img-container {
+  border-radius: 50%;
+  width: 75%;
+  padding-top: 75%;
+  margin: 0 auto 30px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.ruben-img {
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ratings-container {
+  display: grid;
+  grid-template-columns: min-content min-content;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill {
+  text-align: right;
+}
+
+.rating {
+  text-align: left;
+}
+
+.right-container {
+  background: white;
+  border-radius: 0 30px 30px 0;
+  box-sizing: border-box;
+  width: 65%;
+  padding: 30px;
+}
+
+.right-container h3 {
+  color: #2e75b6;
+  margin: 0 0 10px;
+}
+
+.right-container ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0;
+}
+
+.right-container ul ul {
+  padding-left: 25px;
+}
+
+.right-container a {
+  text-decoration: none;
+  color: #1f3864;
+}
+
+.right-container a:hover {
+  color: #b4c7e7;
+}
+
+.descriptions-dates-container {
+  display: flex;
+  column-gap: 10px;
+}
+
+.descriptions-container {
+  width: 80%;
+}
+
+.descriptions-container ul li {
+  font-weight: 600;
+}
+
+.descriptions-container ul ul li {
+  font-weight: 400;
+}
+
+.description {
+  padding: 5px 0;
+}
+
+.top-description {
+  padding-top: 0;
+}
+
+.bottom-description {
+  padding-bottom: 0;
+}
+
+.dates-container {
+  background: #b4c7e7;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 20%;
+
+  position: relative;
+}
+
+.date {
+  position: absolute;
+}

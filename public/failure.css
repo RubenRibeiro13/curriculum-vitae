@@ -1,0 +1,43 @@
+body {
+  font-family: "Arimo", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  background: #e6e6e6;
+  margin: 0;
+}
+
+img {
+  width: min(calc(100% - 2 * max(7%, 25px)), 256px);
+  padding: max(7%, 25px) max(7%, 25px) 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #1f3864;
+}
+
+a:hover {
+  color: #b4c7e7;
+}
+
+.paragraphs-container {
+  width: min(calc(100% - 2 * max(7%, 25px)), 600px);
+  padding: 25px max(7%, 25px) max(7%, 25px);
+  margin: 0 auto;
+}
+
+.top-paragraph {
+  margin-top: 0;
+}
+
+.bottom-paragraph {
+  margin-bottom: 0;
+}
+
+.attributions-container {
+  padding: max(7%, 25px);
+}
