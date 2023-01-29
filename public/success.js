@@ -1,3 +1,7 @@
+$(".current-year").text(new Date().getFullYear());
+
+
+
 const descriptionsHeadings = $(".descriptions-container h3");
 const descriptionsHeadingsHeight = descriptionsHeadings.height() + parseFloat(descriptionsHeadings.css("margin-bottom"));
 
